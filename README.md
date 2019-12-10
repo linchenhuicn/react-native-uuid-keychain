@@ -1,9 +1,11 @@
 ## Installation
-Installation can be done through ``npm``:
+1. With autolinking (react-native 0.60+)
 
-```shell
-npm i react-native-uuid-keychain --save
-```
+    `cd ios && pod install`
+    
+2. Pre react-native 0.60
+
+    `$ react-native link react-native-swisseph`
 
 ## Usage
 用于获取app的唯一标示
